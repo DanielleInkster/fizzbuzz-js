@@ -24,4 +24,9 @@ describe( 'FizzBuzz', function(){
     });
   });
 
+  describe('all other numbers', function(){
+    it('prints all other numbers', function(){
+    expect( fizzBuzz.play(1)).toEqual(1);
+    });
+  });
 });
